@@ -485,6 +485,7 @@ img {
   z-index: 1;
 }
 .home__content {
+  height: 100vh!important;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -1179,6 +1180,9 @@ img {
   }
   .section {
     padding: 80px 0px 56px 0px;
+  }
+  .home__content {
+  height: 60vh!important;
   }
   .home {
     padding: 0;
